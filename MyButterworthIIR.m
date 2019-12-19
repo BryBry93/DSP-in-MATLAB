@@ -19,11 +19,6 @@ xlabel('Time points'), ylabel('Filter coeffs.')
 title('Time-domain filter coefficients')
 legend({'B';'A'})
 
-subplot(222)
-stem(hz,filtPow(1:length(hz)),'blue-','linew',2,'markersize',10,'markerfacecolor','w')
-xlabel('Frequency (Hz)'), ylabel('Power')
-title('Power spectrum of filter coeffs.')
-
 %%
 % generatre impulse response - all zeros and 1 in the middle
 impRes = [zeros(1,500) 1 zeros(1,500)];
