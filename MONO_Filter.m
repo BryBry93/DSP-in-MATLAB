@@ -221,13 +221,3 @@ axis xy
 set(gca,'clim',[0 1]*2,'ylim',FqX([1 dsearchn(FqX,1000)]),'xlim',time2([1 end]))
 xlabel('Time (sec.)'), ylabel('Frequency (Hz)')
 colormap hot
-
-
-%% NEXT PART
-% WOrk on seeing/plotting the kernel ----- DONE!
-% and see the effects   ----- DONE! 
-% ---------------      Order @ 25 was chosen. freq response was best there
-% then see affects of varying kernels
-%% NEXT NEXT Part
-% try sing filtfilt() fucntion instead of zero phase - 
-% whats the diffeence in theory and in the output ???
